@@ -1,0 +1,55 @@
+@import './reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardWrapper {
+  border: 2px solid black;
+  width: 300px;
+  margin: 10px;
+}
+
+.imgWrapper {
+  position: relative;
+  width: inherit;
+  height: 300px;
+}
+
+.img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: inherit;
+}
+
+.userCard {
+  text-align: center;
+}
+
+.cardName {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardDescription {
+  
+}
+
+.initials {
+  position: absolute;
+  inset: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: black; */
+  color: white;
+}
