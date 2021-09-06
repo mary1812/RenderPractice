@@ -1,4 +1,4 @@
-@import './reset.css';
+@import "./reset.css";
 
 * {
   box-sizing: border-box;
@@ -39,13 +39,13 @@
 }
 
 .cardDescription {
-  color: grey;
+  color: black;
 }
 
 .initials {
   position: absolute;
   inset: 0;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,14 +55,24 @@
 }
 
 .initials:empty::after {
-  content: 'Unknown';
+  content: "Unknown";
 }
 
-.icon {
-  border: 10px solid grey; 
-  color: grey ;
+.iconsSocialMedia {
+  color: rgb(196, 194, 194);
+  border: 1px solid;
+  border-radius: 2px;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  height: 35px;
+  text-align: center;
+  width: 40px;
+  margin-right: 5px;
 }
 
-.icon:hover {
-  color: red;
+
+.iconsSocialMedia:hover {
+  background-color: red;
+  color: white;
 }
