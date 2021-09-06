@@ -39,7 +39,7 @@
 }
 
 .cardDescription {
-  
+  color: grey;
 }
 
 .initials {
@@ -52,4 +52,17 @@
 
   /* background-color: black; */
   color: white;
+}
+
+.initials:empty::after {
+  content: 'Unknown';
+}
+
+.icon {
+  border: 10px solid grey; 
+  color: grey ;
+}
+
+.icon:hover {
+  color: red;
 }

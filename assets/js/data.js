@@ -1,65 +1,92 @@
 const data = [
   {
     id: 1,
-    name: '20st Amendment Brewery & Restaurant',
-    description: 'fedsersd',
+    firstName: 'Jason',
+    lastName: 'Statham',
     profilePicture:
-      '.com/preview/500-450/content/files/mod.happyhour/e646bf59c47247098a660704f84644a2.jpg',
+      'https://i.pinimg.com/orignals/24/f5/f8/24f5f8ef9f8af9c7e795ff0ba15f6881.jpg',
+    contacts: [
+      'https://www.facebook.com/JasonStatham/',
+      'https://twitter.com/realjstatham',
+      'https://www.instagram.com/jasonstatham/?hl=ru',
+    ],
   },
   {
     id: 2,
-    name: "Anthony's Restaurant & Pizza",
-    description: 'rsxqzmblp',
+    firstName: 'Dwayne',
+    lastName: 'Johnson',
     profilePicture:
-      'https://images1.miaminewtimes.com/imager/anthonys-coal-fired-pizza/u/745x420/6405367/5429236.0.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Dwayne_Johnson_2%2C_2013.jpg/800px-Dwayne_Johnson_2%2C_2013.jpg',
+    contacts: [
+      'https://www.facebook.com/DwayneJohnson',
+      'https://www.instagram.com/therock/?hl=ru',
+    ],
   },
   {
     id: 3,
-    name: 'Boise Greenbelt Trail',
-    description: 'rhwdedjsl',
+    firstName: 'Emma',
+    lastName: 'Stone',
     profilePicture:
-      'https://cf-images.us-east-1.prod.boltdns.net/v1/static/5615998029001/a6c728cd-a576-4efb-93ed-1c83cfdc73f6/3bb237b3-a7f3-4b67-b899-88f6909df3bb/1280x720/match/image.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Emma_Stone_at_he_39th_Mill_Valley_Film_Festival_%28cropped%29.jpg/320px-Emma_Stone_at_the_39th_Mill_Valley_Film_Festival_%28cropped%29.jpg',
+    contacts: [
+      'https://www.facebook.com/DwayneJohnson',
+      'https://www.instagram.com/therock/?hl=ru',
+    ],
   },
   {
     id: 4,
-    name: 'Firefly Restaurant',
-    description: 'roxfrtknd',
+    firstName: 'Somebody',
+    lastName: 'Tuffak',
+    profilePicture: null,
+    contacts: [
+      'https://twitter.com/realjstatham',
+      'https://www.instagram.com/therock/?hl=ru',
+    ],
+  },
+  {
+    id: 999,
+    firstName: '',
+    lastName: '',
     profilePicture:
-      'https://media-cdn.tripadvisor.com/media/photo-s/18/25/96/89/firefly.jpg',
+      'https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwTUyNzc3Nw@@._V1_.jpg',
+    contacts: [
+      'https://twitter.com/realjstatham',
+      'https://www.instagram.com/therock/?hl=ru',
+    ],
   },
   {
     id: 5,
-    name: 'Fringale',
-    description: 'rwransgqh',
+    firstName: 'Scarlett',
+    lastName: 'Johansson',
     profilePicture:
-      'https://media-cdn.tripadvisor.com/media/photo-s/15/2b/1d/36/nouveau-local-nouvelle.jpg',
+      'https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg',
+    contacts: [
+      'https://www.facebook.com/pages/category/Actor/Scarlett-Johansson-Official-101457158013203/',
+      'https://twitter.com/scarlett_jo',
+      'https://www.instagram.com/scarlett.johansson.fc/?hl=ru',
+    ],
   },
   {
     id: 6,
-    name: "Mountain Mike's Pizza - Saratoga",
-    description: 'rzmrjnimy',
+    firstName: 'Yevgeny',
+    lastName: 'Ponasenkov',
     profilePicture:
-      'https://gonevadacounty.com/wp-content/uploads/2019/07/Mountain-Mikes-Pizza-Hires-Powerhouse-Communications.jpg',
+      'https://www.factroom.ru/wp-content/uploads/2019/06/10-faktov-o-evgenii-ponasenkove-kotoryj-svodit-vsekh-s-uma-1250x883.jpg',
+    contacts: [
+      'https://www.facebook.com/Ponasenkov',
+      'https://twitter.com/Ponasenkov',
+    ],
   },
   {
     id: 7,
-    name: 'Philz Coffee',
-    description: 'rezirtngh',
+    firstName: 'Daniel',
+    lastName: 'Day-Lewis',
     profilePicture:
-      'https://i.pinimg.com/originals/19/6b/0c/196b0c16e3fd1fdd6ef110c51f254d59.jpg',
+      'https://i2.wp.com/comicbookdebate.com/wp-content/uploads/2019/07/There20will20be20blood202-750x460.jpg?resize=750%2C460&ssl=1',
+    contacts: [
+      'https://www.facebook.com/JasonStatham/',
+      'https://twitter.com/realjstatham',
+      'https://www.instagram.com/jasonstatham/?hl=ru',
+    ],
   },
-  {
-    id: 8,
-    name: 'Raley’s Supermarket',
-    description: 'rhtkrbawm',
-    profilePicture:
-      'https://nonprofitquarterly.org/wp-content/uploads/2016/04/Grocery-co-op-771x552.jpg',
-  },
-  {
-    id: 9,
-    name: 'Rancho San Antonio Open Space Preserve',
-    description: 'rxgrtbgkm',
-    profilePicture:
-      'https://carfreeoutdoors.files.wordpress.com/2009/11/img_1271w.jpg',
-  },
-];
+];;
